@@ -1,0 +1,15 @@
+{
+  "name": "my-command-package",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "mcp": "./bin/index.js"
+  },
+  "author": "Rafael Gadotti <rbgadotti@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  }
+}
